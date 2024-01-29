@@ -255,7 +255,16 @@ const InventarioApp = () => {
       <div className="table-container">
       <div className="w-full overflow-x-auto">
       <table className="w-full text-left border-collapse border border-gray-300">
-        
+        <thead>
+          <tr className="bg-gray-200">
+            <th className="py-2 px-4 border-r border-gray-300">Nombre</th>
+            <th className="py-2 px-4 border-r border-gray-300">Precio</th>
+            <th className="py-2 px-4 border-r border-gray-300">Codigo</th>
+            <th className="py-2 px-4 border-r border-gray-300">Descripción</th>
+            <th className="py-2 px-4 border-r border-gray-300">Cantidad</th>
+            <th className="py-2 px-4 border-r border-gray-300">Acciones</th>
+          </tr>
+        </thead>
         <tbody>
           {filteredProducts.map((product) => (
             <tr key={product.id} className="border-b border-gray-300">
