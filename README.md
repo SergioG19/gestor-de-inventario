@@ -19,7 +19,7 @@ VITE
 TAILWIND
 
 Dependencias a instalar para que funcione el programa:
-- Primero se selecciona la carpeta del proyecto con: cd my-project
+- Primero se selecciona la carpeta del proyecto con: cd Inventario-App
 - Luego se coloca lo siguiente: npm install -D tailwindcss postcss autoprefixer
 - Por ultimo colocamos lo siguiente: npx tailwindcss init -p.
 
