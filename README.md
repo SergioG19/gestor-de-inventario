@@ -7,6 +7,8 @@ Integrantes:
 -Sergio Gonzalez
 -María Suarez
 
+Enlace al video de la explicación de la actividad: https://youtu.be/Habj5oHWq-w?si=bGTBXWlMy8qu9ZZd
+
 Este proyecto presenta un gestor de inventario completo y fácil de usar. Te permite:
 
 Agregar, editar y eliminar productos de tu inventario.
